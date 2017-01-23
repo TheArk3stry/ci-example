@@ -4,5 +4,5 @@ scipt: mvn clean verify
 deploy:
     provider: heroku
     api_key:
+        app: ciexample
         secure: "db25d0aa-adf8-49ca-ab6d-291255c677ad"
-app: ciexample
