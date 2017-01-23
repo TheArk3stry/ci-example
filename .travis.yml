@@ -4,7 +4,7 @@ script: mvn clean verify
 deploy:
   provider: heroku
   api_key:
-    secure: "db25d0aa-adf8-49ca-ab6d-291255c677ad"
-    app: ciexample
+    secure: Ajg4udNARGagjbrGOl1ueDWhxD1aZzUTyKpa3ZEQVruke+6i/6l4yB8tbr7Ja16k308v/IUvqwSDwJi5JoW9+xM6eGzEWiqZpwieds6qwWXuOpj2COdbxPmtXwq2mK83AalXujvViaQxfxvDUdUZPXwsQq7+DHDWzD8u/sgxJYDlM6K/ZTNzA2OR7K5HgvBCayuZXfBxuEpllJQEojcjZy1kLKb20FoKbJxxTL3I7DclMM/n/bvvI0hFb1HAN6XKQgzTE5LPqftWVjs2i3nF6dABqHxWhcUm345DiLvJ6s8cgeUdYEuMIYKtoYvj2I8doz65xmVxCENp3cxGbqKhHEjVVs64CMpQcn+aeziqAShW1x3jX5AvPKJ3D07guKOcgJ2zBQ14Jg15eNTDiBdMjvBiaU41Nwhy5rHJq3+WcM8AzWi1uKFQoUngD4SKEBVtD0Mn0q2xXywRIQ1YMhW0XlzbTGfUsl8R/7NlX0WLcCm442VmhkeSHbzbqon+ZYraHqBQVN36yPs5KirkhxJaX/4VdFvfmIWCS3x07m/p3U3XY+txGnvuy6sOumqpFolYlaA7QBdzO0KkI9AGSvXaQAN03Pttwfh1yxGpPB78Z6NBWL/vO9465aw1Zw80uD4MVf8ff9pXB9j6ihDNNrGB1ku4dWHf2DUCZ0M8Vkl2FNY=
+  app: ciexample
   on:
     repo: TheArk3stry/ci-example
